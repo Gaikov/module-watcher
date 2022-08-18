@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import chokidar from "chokidar";
 import child_process from "child_process";
 import fs from "fs-extra";
