@@ -1,0 +1,14 @@
+{
+  "dist": "./dist",
+  "dependent-paths": [
+    "./example/test-module"
+  ],
+  "include": [
+    "./src",
+    "./package.json"
+  ],
+  "ignored": [
+
+  ],
+  "build": "npm run build"
+}
