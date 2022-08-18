@@ -1,0 +1,30 @@
+{
+  "name": "advanced-module-watcher",
+  "version": "1.0.0-rc.0",
+  "description": "Watches module changes locally runs specified build script and copies as a dependency to another module node_modules",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "watch-module": "./src/index.js"
+  },
+  "keywords": [
+    "watcher",
+    "module",
+    "local",
+    "development",
+    "ci",
+    "building",
+    "watching",
+    "dependencies"
+  ],
+  "author": "Roman Gaikov",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "chokidar": "^3.5.3",
+    "fs-extra": "^10.1.0"
+  }
+}
