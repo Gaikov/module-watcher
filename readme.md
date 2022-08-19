@@ -1,6 +1,6 @@
 # Module watcher
 Designed for developers to help develop node modules.
-Watches module changes locally runs specified build script and copies as a dependency to another module node_modules
+Watches a developed module changes locally runs specified build script and copies as a dependency to another module "./node_modules" folder
 
 ## Install
 Should be installed locally as a dependency for the developed module
